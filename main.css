@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image:url("https://www.animatedimages.org/data/media/1513/animated-sea-and-ocean-image-0008.gif");
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    background: transparent;
+    
+    
+}
+h1{
+    font-size: 100px;
+    color: rgb(95, 0, 58);
+    border: 4cap rgb(245, 235, 235);
+    text-shadow: 10px 5px 5px rgba(8, 52, 58, 0.942) ;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#btn2{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.cEPDxJNpCAjhDMJkwDze9QHaCX&pid=Api&P=0&h=180");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 110px;
+    height: 100px;
+    width: 350px;
+    font-weight: 700;
+    background-color: rgb(12, 11, 11);
+    z-index: 20;
+    font-size: 50px;
+    border: 1px solid rgb(19, 18, 18);
+    color: rgb(245, 240, 240);
+    box-shadow: 2px 3px 4px 5px rgb(222, 215, 215);
+    cursor: pointer;
+
+
+
+}
+
+
+.tick{
+    display: none;
+}
+.play-btn{
+    
+    position: relative;
+        border: none;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        overflow: hidden;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        shape-rendering: 1px 3px 4px 6px rgb(23, 20, 20);
+    
+    
+    
+}
+.play-btn:hover{
+    box-shadow: 3px 4px 20px 10px rgb(250, 250, 250);
+}
+    
+    
+
+
+.play-btn::after{
+
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.7v7uQtL0P9eKmknlNToamgAAAA&pid=Api&P=0&h=180");
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-image 0.3s ease;
+    
+   
+   
+}
+.clicked::after{
+    content:"" ;
+    background-image:url("https://tse4.mm.bing.net/th?id=OIP.XjgROwUf4F4W6TpZtiZWqwHaHS&pid=Api&P=0&h=180") ;
+}
+/* }
+.play-btn:focus::after {
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.JcadK1WRiowZpxeYJ8wusAHaHa&pid=Api&P=0&h=180") ;
+    
+} */
+/* position: absolute;
+    top:30px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%; */
+
+/* .pause-btn{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.XklLCONI5ex4FVCGvJpWsQHaHw&pid=Api&P=0&h=180");
+    background-size: cover;
+    /* position: absolute;
+    top:30px;
+    left: 110px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%; 
+
+} */
